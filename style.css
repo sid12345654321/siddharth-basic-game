@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to top left,red, yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+main{
+    background-color: rgb(194, 174, 177);
+    display: flex;
+    height: 550px;
+    width: 840px;
+    border-radius: 23px;
+    
+    /* overflow: hidden; */
+    
+
+}
+.hidden{
+    display: none;
+}
+.player{
+    /* flex: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 50%;
+    
+}
+
+.btn{
+    height: 7%;
+    position: absolute;
+    left: 44%;
+    background-color: rgb(52, 49, 101);
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    color: white;
+}.btn-new{
+    top: 20%;
+    padding-left: 13px;
+padding-right: 13px;
+
+}
+.btn-rol{
+   bottom: 30%;
+    left: 45%;
+padding-left: 13px;
+padding-right: 13px;
+
+}
+.btn-hold{
+    bottom: 21%;
+    left: 46%;
+    padding-left: 13px;
+padding-right: 13px;
+    
+}
+
+.player-active{
+    background-color: rgb(96, 24, 36);
+     /* border-top-left-radius: 23px;
+    border-bottom-left-radius:23px  */
+  
+}
+.current{
+    position: absolute;
+    bottom: 150px;
+    font-size: 23px;
+    text-align: center;
+    background-color: red;
+    width: 150px;
+    border-radius: 10px;
+}#player-0{
+    margin-top: 40px;
+    font-size: 37px;
+}#player-1{
+    margin-top: 40px;
+    font-size: 37px;
+}#score-0{
+    font-size: 81px;
+    margin-top: 20px;
+}#score-1{
+    font-size: 81px;
+    margin-top: 20px;
+}
+.current-score{
+  
+    font-size: 30px;
+}
+.current-label{
+    padding-top: 8px;
+}
+.dice{
+    position: absolute;
+    left: 48%;
+    top: 45%;
+    width:4%;
+    height: 10%;
+}
+.winner-class{
+    background-color: rgb(43, 35, 35);
+}
